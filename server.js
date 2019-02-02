@@ -109,6 +109,13 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+
+app.get('/nsedata', function (req, res) {
+
+  return "nse data"
+
+})
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
