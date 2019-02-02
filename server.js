@@ -112,7 +112,7 @@ app.get('/pagecount', function (req, res) {
 
 app.get('/nsedata', function (req, res) {
 
-  return "nse data"
+  res.send("nse data")
 
 })
 
